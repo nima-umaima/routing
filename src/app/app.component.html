@@ -1,2 +1,28 @@
-<h1>Angular Routing</h1>
+<div class="container">
+    <h1>Angular Routing</h1>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/crisis-center" routerLinkActive = "active" class="nav-item nav-link" >Crisis center</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/heroes-list" routerLinkActive= "active" class="nav-item nav-link ">Heroes</a>
+            </li>
+          </ul>
+            <!-- <div class="navbar-nav"> -->
+
+                    <!-- wild card route. intercept invalid URLs -->
+
+              <!-- </div> -->
+                </div>
+
+    </nav>
+
+<!-- outlet where routing components are rendered -->
 <router-outlet></router-outlet>
+</div>
